@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`stylelint plugins should pass for valid css file 1`] = `Array []`;
+
+exports[`stylelint plugins should throw error for invalid css file 1`] = `
+Array [
+  "Please use css custom property for next css definition \`color\` in \\"color: black\\" (mavrin/stylelint-declaration-use-css-custom-properties)",
+  "Please use css custom property for next css definition \`color\` in \\"border: 1px solid #fff\\" (mavrin/stylelint-declaration-use-css-custom-properties)",
+  "Please use css custom property for next css definition \`length\` in \\"border: 1px solid #fff\\" (mavrin/stylelint-declaration-use-css-custom-properties)",
+]
+`;

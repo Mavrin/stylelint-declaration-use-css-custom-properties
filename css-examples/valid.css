@@ -1,6 +1,0 @@
-.some-selector {
-  --test-properies: red;
-  /*    background: aqua; */
-  color: var(--test-properies);
-  border: 1px solid var(--test-properies);
-}
