@@ -3,6 +3,9 @@
   "version": "1.0.0-alpha.0",
   "description": "A stylelint custom rule to check the use of css custom properties on declaration",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "jest",
     "lint": "eslint ."
