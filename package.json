@@ -1,0 +1,49 @@
+{
+  "name": "@mavrin/stylelint-declaration-use-css-custom-properties",
+  "version": "1.0.0-alpha.0",
+  "description": "A stylelint custom rule to check the use of css custom properties on declaration",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mavrin/stylelint-declaration-use-css-custom-properties.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin",
+    "css",
+    "variable",
+    "custom properties"
+  ],
+  "author": "Konstantin Krivlenia <krivlenia@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mavrin/stylelint-declaration-use-css-custom-properties/issues"
+  },
+  "homepage": "https://github.com/Mavrin/stylelint-declaration-use-css-custom-properties#readme",
+  "peerDependencies": {
+    "stylelint": "^13.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-jest": "^23.7.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.1",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
+    "stylelint": "^13.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "dependencies": {
+    "css-tree": "^1.0.0-alpha.39"
+  }
+}
