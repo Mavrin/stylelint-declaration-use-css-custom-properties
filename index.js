@@ -56,7 +56,6 @@ module.exports = stylelint.createPlugin(ruleName, function({
       try {
         ast = csstree.parse(decl.value, {
           context: "value",
-          property: decl.prop,
         });
       } catch (e) {
         return stylelint.utils.report({
