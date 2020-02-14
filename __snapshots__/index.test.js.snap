@@ -7,5 +7,6 @@ Array [
   "Please use css custom property for next css definition \`color\` in \\"color: black\\" (mavrin/stylelint-declaration-use-css-custom-properties)",
   "Please use css custom property for next css definition \`color\` in \\"border: 1px solid #fff\\" (mavrin/stylelint-declaration-use-css-custom-properties)",
   "Please use css custom property for next css definition \`length\` in \\"border: 1px solid #fff\\" (mavrin/stylelint-declaration-use-css-custom-properties)",
+  "Please use css custom property for next css definition \`color\` in \\"background-color: rgba(37, 156, 154, 0.4)\\" (mavrin/stylelint-declaration-use-css-custom-properties)",
 ]
 `;

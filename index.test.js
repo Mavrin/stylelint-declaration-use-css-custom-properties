@@ -30,7 +30,7 @@ describe("stylelint plugins", () => {
       })
       .then(({ results }) => {
         expect(results).toHaveLength(1);
-        expect(results[0].warnings).toHaveLength(3);
+        expect(results[0].warnings).toHaveLength(4);
         expect(extractErrorMessage(results[0].warnings)).toMatchSnapshot();
       });
   });

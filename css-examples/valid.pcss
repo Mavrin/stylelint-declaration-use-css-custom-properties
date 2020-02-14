@@ -2,14 +2,19 @@
   --test-color: 1px;
   --test-height: red;
 }
+
 .some-selector {
   $lineHeight: 1.4;
   $fontSize: 16px;
   $paddingVrt: 10px;
   $lines: 4;
   $height: calc($fontSize * $lineHeight * $lines + $paddingVrt * 2);
+
   font-size: $height;
-  /*    background: aqua; */
   color: var(--test-color);
   border: var(--test-height) solid var(--test-color);
+
+  &:focus {
+    background-color: var(--test-color);
+  }
 }
