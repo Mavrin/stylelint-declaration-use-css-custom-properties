@@ -29,6 +29,7 @@ css after
   --bgColor: white;
   --borderColor: rgb(0, 255, 0, 0.5);
 }
+
 .some-rules {
   color: var(--textColor);
   background: var(--bgColor);
