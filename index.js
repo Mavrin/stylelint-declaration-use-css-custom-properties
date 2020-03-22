@@ -3,10 +3,10 @@ const ruleName = "mavrin/stylelint-declaration-use-css-custom-properties";
 const csstree = require("css-tree");
 
 const messages = stylelint.utils.ruleMessages(ruleName, {
-  parseError: function(value) {
+  parseError: function (value) {
     return `Can't parse value "${value}"`;
   },
-  unexpectedDecl: function(decl, definition) {
+  unexpectedDecl: function (decl, definition) {
     return `Please use css custom property for next css definition \`${definition}\` in "${decl}"`;
   },
 });
@@ -34,16 +34,16 @@ const ignorePredicate = (skipNames, value) => {
   );
 };
 
-module.exports = stylelint.createPlugin(ruleName, function({
+module.exports = stylelint.createPlugin(ruleName, function ({
   cssDefinitions = [],
   ignoreProperties,
   ignoreValues,
 }) {
-  return function(postcssRoot, postcssResult) {
+  return function (postcssRoot, postcssResult) {
     if (cssDefinitions.length === 0) {
       return;
     }
-    postcssRoot.walkDecls(function(decl) {
+    postcssRoot.walkDecls(function (decl) {
       // ignore properties from ignore list
       if (
         ignorePredicate(ignoreProperties, decl.prop) ||
