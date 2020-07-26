@@ -13,10 +13,10 @@ css before
 
 ```css
 .some-rules {
-  color: #000; // this declaration will be highlighted
-  background: white; // this declaration will be highlighted
-  border: 1px solid rgb(0, 255, 0, 0.5); // this declaration will be highlighted
-  animation-name: red; // // this declaration will not highlighted, because is not color
+  color: #000; /* this declaration will be highlighted */
+  background: white; /* this declaration will be highlighted */
+  border: 1px solid rgb(0, 255, 0, 0.5); /* this declaration will be highlighted */
+  animation-name: red; /* this declaration will not highlighted, because is not color */
   animation-duration: 4s;
 }
 ```
