@@ -29,18 +29,18 @@
   },
   "homepage": "https://github.com/Mavrin/stylelint-declaration-use-css-custom-properties#readme",
   "peerDependencies": {
-    "stylelint": "^13.1.0"
+    "stylelint": "^13.6.1"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.1",
-    "eslint-plugin-jest": "^23.8.2",
-    "eslint-plugin-prettier": "^3.1.2",
-    "husky": "^4.2.1",
-    "jest": "^25.1.0",
-    "prettier": "^2.0.1",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-jest": "^23.18.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
-    "stylelint": "^13.2.1",
+    "stylelint": "^13.6.1",
     "stylelint-config-standard": "^20.0.0"
   },
   "husky": {
