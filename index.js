@@ -29,7 +29,7 @@ const ignorePredicate = (skipNames, value) => {
         const regExp = toRegex(name);
         return regExp.test(value);
       }
-      return value.includes(name);
+      return value === name;
     })
   );
 };

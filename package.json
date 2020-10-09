@@ -1,6 +1,6 @@
 {
   "name": "@mavrin/stylelint-declaration-use-css-custom-properties",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "A stylelint custom rule to check the use of css custom properties on declaration",
   "main": "index.js",
   "files": [

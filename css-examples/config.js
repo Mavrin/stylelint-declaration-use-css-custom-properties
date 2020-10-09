@@ -6,7 +6,7 @@ module.exports = {
     "mavrin/stylelint-declaration-use-css-custom-properties": {
       cssDefinitions: ["color", "length"],
       ignoreProperties: ["/^\\$/"],
-      ignoreValues: ["/\\$/", "transparent"],
+      ignoreValues: ["/\\$/", "transparent", "0"],
     },
   },
 };
