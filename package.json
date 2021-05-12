@@ -1,6 +1,6 @@
 {
   "name": "@mavrin/stylelint-declaration-use-css-custom-properties",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0",
   "description": "A stylelint custom rule to check the use of css custom properties on declaration",
   "main": "index.js",
   "files": [
@@ -32,23 +32,16 @@
     "stylelint": "^13.6.1"
   },
   "devDependencies": {
-    "eslint": "^7.5.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-jest": "^23.18.2",
-    "eslint-plugin-prettier": "^3.1.4",
-    "husky": "^4.2.5",
-    "jest": "^26.1.0",
-    "prettier": "^2.0.5",
-    "pretty-quick": "^2.0.1",
-    "stylelint": "^13.6.1",
-    "stylelint-config-standard": "^20.0.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.3.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0"
   },
   "dependencies": {
-    "css-tree": "^1.0.0-alpha.39"
+    "css-tree": "^1.0.0"
   }
 }
