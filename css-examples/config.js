@@ -8,5 +8,6 @@ module.exports = {
       ignoreProperties: ["/^\\$/"],
       ignoreValues: ["/\\$/", "transparent", "0"],
     },
+    "color-function-notation": "legacy",
   },
 };
