@@ -1,6 +1,6 @@
 {
   "name": "@mavrin/stylelint-declaration-use-css-custom-properties",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A stylelint custom rule to check the use of css custom properties on declaration",
   "main": "index.js",
   "files": [
@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/Mavrin/stylelint-declaration-use-css-custom-properties#readme",
   "peerDependencies": {
-    "stylelint": "^14 | ^15"
+    "stylelint": "^14 || ^15"
   },
   "devDependencies": {
     "eslint": "^8.8.0",
