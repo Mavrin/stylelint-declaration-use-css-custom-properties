@@ -1,13 +1,13 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`stylelint plugins should pass for valid css file 1`] = `Array []`;
+exports[`stylelint plugins should pass for valid css file 1`] = `[]`;
 
 exports[`stylelint plugins should throw error for invalid css file 1`] = `
-Array [
-  "Please use css custom property for next css definition \`color\` in \\"color: black\\" (mavrin/stylelint-declaration-use-css-custom-properties)",
-  "Please use css custom property for next css definition \`color\` in \\"border: 1px solid #fff\\" (mavrin/stylelint-declaration-use-css-custom-properties)",
-  "Please use css custom property for next css definition \`length\` in \\"border: 1px solid #fff\\" (mavrin/stylelint-declaration-use-css-custom-properties)",
-  "Please use css custom property for next css definition \`color\` in \\"background-color: rgba(37, 156, 154, 40%)\\" (mavrin/stylelint-declaration-use-css-custom-properties)",
-  "Please use css custom property for next css definition \`length\` in \\"border-width: 20em\\" (mavrin/stylelint-declaration-use-css-custom-properties)",
+[
+  "Please use css custom property for next css definition \`color\` in "color: black" (mavrin/stylelint-declaration-use-css-custom-properties)",
+  "Please use css custom property for next css definition \`color\` in "border: 1px solid #fff" (mavrin/stylelint-declaration-use-css-custom-properties)",
+  "Please use css custom property for next css definition \`length\` in "border: 1px solid #fff" (mavrin/stylelint-declaration-use-css-custom-properties)",
+  "Please use css custom property for next css definition \`color\` in "background-color: rgba(37, 156, 154, 40%)" (mavrin/stylelint-declaration-use-css-custom-properties)",
+  "Please use css custom property for next css definition \`length\` in "border-width: 20em" (mavrin/stylelint-declaration-use-css-custom-properties)",
 ]
 `;

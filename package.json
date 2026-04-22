@@ -7,7 +7,7 @@
     "index.js"
   ],
   "engines": {
-    "node": ">=16 <=20"
+    "node": ">=22 <=24"
   },
   "scripts": {
     "test": "jest",
@@ -39,7 +39,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jest": "^26.0.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "jest": "^27.5.0",
+    "jest": "30.3.0",
     "prettier": "^2.5.1",
     "stylelint": "^15",
     "stylelint-config-standard": "^33.0.0"
